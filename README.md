@@ -66,7 +66,7 @@ Config variables reference:
 | userEmail                   | Optional, the user joining / starting the meeting / webinar. |
 | passWord                   | Optional, meeting password. Leave as empty string if the meeting does not require a password. |
 
-Generate the meeting signature to authenticate, [instructions here](https://github.com/zoom/websdk-sample-signature-node.js).
+Generate the meeting signature to authenticate, [instructions here](https://github.com/vaibhavmit074/zoom-signature-api).
 
 ```js
 var signature = 'eHUzSlBhQV9SSlcyLTlsNV9IQWFMQS4xMjM0NTY3ODkuMTU4MzE2OTUzODc3My4wLkJMNEtiM3FINGx5ZzA1MUZtbGJOcGtPRnlFQS9lQUR2bGllVzJNNGZJeWs9'
