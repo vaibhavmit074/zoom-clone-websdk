@@ -42,7 +42,7 @@ NOTE: The following files (already in node_modules) must be globally accessible 
 Set the config variables (reference below):
 
 ```js
-// setup your signautre endpoint here: https://github.com/zoom/websdk-sample-signature-node.js
+// setup your signautre endpoint here: https://github.com/vaibhavmit074/zoom-signature-api
 var signatureEndpoint = 'http://localhost:4000'
 var apiKey = 'JWT_API_KEY'
 var meetingNumber = 123456789
@@ -57,7 +57,7 @@ Config variables reference:
 
 | Variable                   | Description |
 | -----------------------|-------------|
-| signatureEndpoint          | Required, the endpoint url that returns a signature. [Get a signature endpoint here.](https://github.com/zoom/websdk-sample-signature-node.js) |
+| signatureEndpoint          | Required, the endpoint url that returns a signature. [Get a signature endpoint here.](https://github.com/vaibhavmit074/zoom-signature-api) |
 | apiKey                   | Required, your Zoom JWT App API Key. |
 | meetingNumber                   | The Zoom Meeting / webinar number. |
 | role                   | Required, 0 to join the meeting / webinar, 1 to start the meeting. |
@@ -105,7 +105,7 @@ ZoomMtg.init({
 
 ## Sample App
 
-Checkout the Zoom [Web SDK Sample App](https://github.com/zoom/sample-app-web), and the [Simple Signature Setup Sample App](https://github.com/zoom/websdk-sample-signature-node.js).
+Checkout the Zoom [Web SDK Sample App](https://github.com/zoom/sample-app-web), and the [Simple Signature Setup Sample App](https://github.com/vaibhavmit074/zoom-signature-api).
 
 ## Need Support?
 The first place to look for help is on our [Developer Forum](https://devforum.zoom.us/), where Zoom Marketplace Developers can ask questions for public answers.
